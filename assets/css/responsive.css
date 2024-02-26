@@ -319,7 +319,7 @@ p{font-size: 16px; line-height: 24px;}
 .basic-feature .feature_lowercontent {padding-left: 0;}
 .basic-feature .feature-design {padding-left: 0px;}
 .basic-feature {padding-bottom: 37px;}
-.offer-section {padding: 254px 0 70px; margin-top: -184px;}
+.offer-section {padding: 254px 0 70px;}
 .offer-section .offer_content p {padding: 0 30px 0px 30px;}
 .offer-section .offer_content .offer-apple img{width: 142px;}
 .offer-section .offer_content .offer-google img{width: 140px;}
@@ -357,7 +357,7 @@ p{font-size: 16px; line-height: 24px;}
 .price-section {padding: 70px 0 74px;}
 .price-section .price-circle {top: -442px; right: -376px;}
 .price-block .price-sidecircle {top: -34px;}
-.price-block .price-sidecircle img{width: 40px;}
+.price-block .price-sidecircle img{display: none;}
 .price-section .price_heading h2 {margin-bottom: 30px;}
 .price-section .price-block .price_content {padding: 30px 10px;}
 .price-section .price_content .icon-size1 {height: 90px; width: 90px; line-height: 90px;}
@@ -509,7 +509,7 @@ h6 {font-size: 18px; line-height: 22px;}
 .basic-feature .feature_lowercontent h6 {margin-bottom: 2px;}
 .basic-feature .feature-design {padding-left: 0px;}
 .basic-feature {padding-bottom: 28px;}
-.offer-section {padding: 184px 0 58px; margin-top: -122px;}
+.offer-section {padding: 60px 0 58px;}
 .offer-section .offer_content p {padding: 0;}
 .offer-section .offer_content .offer-google img{width: 120px;}
 .offer-section .offer_content .offer-apple img{width: 120px;}
@@ -546,7 +546,7 @@ h6 {font-size: 18px; line-height: 22px;}
 .price-block .price-sidecircle {top: -36px;}
 .price-section .price-block .price_content2 {margin-bottom: 0;}
 .accordian-section {padding: 60px 0;}
-.available-section {padding: 58px 0 235px;}
+.available-section {padding: 58px 0 60px;}
 .accordian-section .accordion-card .btn-link:before {font-size: 20px; line-height: 20px; top: 36%;}
 .accordian-section .accordion-card {margin-bottom: 16px; padding: 0 18px;}
 .accordian-section .accordian-inner .accordion-card h6 {line-height: 30px;}
@@ -674,7 +674,7 @@ p{font-size: 14px; line-height: 22px;}
 .basic-feature .featurephone-over {right: -8px; top: 96px;}
 .basic-feature .featurephone-over img {width: 190px;}
 .basic-feature {padding-bottom: 26px;}
-.offer-section {padding: 144px 0 60px; margin-top: -80px;}
+.offer-section {padding: 144px 0 60px;}
 .offer-videosection .image-sidecircle {display: none;}
 .search-section .search_wrapper .search-sidecircle {left: 10px; top: 76px;}
 .search-section .search_wrapper .search-sidecircle img {width: 50px;}
@@ -703,7 +703,7 @@ p{font-size: 14px; line-height: 22px;}
 .accordian-section .accordian-inner .accordion-card h6 {line-height: 26px;}
 .accordian-section .accordion-card {padding: 0 30px 0 10px;}
 .accordian-section .accordian-inner .card-body {padding: 15px 0;}
-.available-section {padding: 56px 0 402px;}
+.available-section {padding: 56px 0 60px;}
 .available-section .available_content h2 {font-size: 32px; line-height: 36px; padding: 0; margin-bottom: 10px;}
 .available-section .available_content p {line-height: 24px; padding: 0; margin-bottom: 24px;}
 .available-section .available_wrapper .available-phone1 {left: 0px; top: 115px;}

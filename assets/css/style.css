@@ -661,6 +661,7 @@ p {
     transition: all 0.3s ease-in-out;
     position: relative;
     z-index: 2;
+    margin-left: 10px;
 }
 
 .mb-4{
@@ -1321,6 +1322,12 @@ p {
     background-color: var(--e-global-color-white);
     border: 1px solid white;
     transition: all 0.3s ease-in-out;
+}
+.feature-aboutsection .feature_aboutcontent img{
+    border-radius: 10px;
+}
+ul{
+    text-align: left!important;
 }
 .feature_aboutheading h2{
     text-align: center;
