@@ -1332,6 +1332,9 @@ p {
     opacity:75%;
     z-index: 0;
 }
+.fw-bold{
+    font-weight: 700;
+}
 
 .abs-sce::after{
     content: '';
