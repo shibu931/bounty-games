@@ -6,7 +6,7 @@ $comments=$_POST['msg'];
 if(isset($name) && isset($emailHelp))
 {
 	global $to_email,$vpb_message_body,$headers;
-	$to_email="amna.amjad@devbunch.com";
+	$to_email="officialbounty0@game.com";
 	$vpb_message_body = nl2br("Dear Admin,\n
 	The user whose detail is shown below has sent this message from ".$_SERVER['HTTP_HOST']." dated ".date('d-m-Y').".\n
 	
@@ -24,7 +24,6 @@ if(isset($name) && isset($emailHelp))
 	 if(@mail($to_email, $vpb_message_body, $headers))
 		{
 			$status='Success';
-			//Displays the success message when email message is sent
 			$output="Congrats ".$name.", your email message has been sent successfully! We will get back to you as soon as possible. Thanks.";
 		} 
 		else 
