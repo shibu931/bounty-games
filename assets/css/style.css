@@ -965,6 +965,27 @@ p {
     position: relative;
     z-index: 1;
 }
+.feature-aboutsection .vid-1{
+    position: absolute;
+    top: -230px;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.feature-aboutsection .vid-2{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 5px black;
+}
+
 .sub-banner .bannersidelayer{
     position: absolute;
     top: 0;
@@ -1026,7 +1047,6 @@ p {
     position: relative;
     padding: 237px 0 117px;
     overflow: hidden;
-    margin-top: -120px;
 }
 .about-section .price-circle{
     position: absolute;
@@ -1299,9 +1319,37 @@ p {
 
 /* Feature Page Style */
 
+.abs-sce::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:75%;
+    z-index: 0;
+}
+
+.abs-sce::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2f2f2f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
 .feature-aboutsection {
-    padding: 227px 0 97px;
+    /* padding: 227px 0 0px; */
     position: relative;
+    z-index: 3;
 }
 .feature-aboutsection .price-circle {
     position: absolute;
